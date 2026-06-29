@@ -1,174 +1,175 @@
-Package: ai.akemi.appsyncunified
-Version: 116.0
-Architecture: iphoneos-arm
-Maintainer: Karen
-Installed-Size: 636
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.2)
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified, ellekit (< 1.1)
-Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.2)
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Homepage: https://cydia.akemi.ai/
 Provides: appsync, net.angelxwind.appsyncunified
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Package: ai.akemi.appsyncunified
+Name: AppSync Unified
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Section: Tweaks
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Architecture: iphoneos-arm
+Version: 116.0
+Installed-Size: 636
 Filename: ./debs/appsyncunified_116.0.deb
 Size: 51658
 MD5sum: 536009a11dad57e48a5563224eaffaff
 SHA1: e0fa412cb3c26718887edd834804c88909297079
 SHA256: 0036f28fcbdb165d4f58968a237ca9fe7b6ed33fea25b9a5eb1fc141f6bf5a09
-Section: Tweaks
-Homepage: https://cydia.akemi.ai/
-Description: Enables the ability to install unsigned/fakesigned iOS applications.
-Author: Karen, Linus Yang <karen@akemi.ai>
-Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
-Name: AppSync Unified
 
+Name: Anemone
 Package: com.anemonetheming.anemone
+Priority: optional
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), com.rpetrich.rocketbootstrap, pincrush
+Provides: org.coolstar.themelib, anemoneteam.anemone, org.coolstar.classicdock, winterboard, org.coolstar.classicbadges, org.coolstar.customclock, com.codethemed.iconbundles, com.idd.iconomatic
+Replaces: org.coolstar.themelib, anemoneteam.anemone, org.coolstar.classicdock, winterboard, org.coolstar.classicbadges, com.codethemed.iconbundles, com.idd.iconomatic
+Conflicts: org.coolstar.themelib, anemoneteam.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
 Version: 2.1.8-2
 Architecture: iphoneos-arm
+Description: An awesome theme manager!
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=anemoneDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=anemoneDp
+Sponsor: thebigboss.org <http://thebigboss.org>
 Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: AnemoneTeam <anemonetheming@gmail.com>
+dev: anemonetheming
+Section: Tweaks
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
 Installed-Size: 8112
-Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), com.rpetrich.rocketbootstrap, pincrush
-Conflicts: org.coolstar.themelib, anemoneteam.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
-Replaces: org.coolstar.themelib, anemoneteam.anemone, org.coolstar.classicdock, winterboard, org.coolstar.classicbadges, com.codethemed.iconbundles, com.idd.iconomatic
-Provides: org.coolstar.themelib, anemoneteam.anemone, org.coolstar.classicdock, winterboard, org.coolstar.classicbadges, org.coolstar.customclock, com.codethemed.iconbundles, com.idd.iconomatic
+Icon: file:///Applications/Anemone.app/icon.png
 Filename: ./debs/com.anemonetheming.anemone_2.1.8-2_iphoneos-arm.deb
 Size: 1857818
 MD5sum: 528a922eb2c41c23c0240c53b685a18d
 SHA1: cdb3f85a2fac3dd8fd0fc05647e6e58fe4573c84
 SHA256: ea2200f6e0e93a1d5b7ee53bcbf46e5b6700a7706ecbf71842426df51a8ee6a0
-Section: Tweaks
-Priority: optional
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=anemoneDp
-Description: An awesome theme manager!
-Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
-Author: AnemoneTeam <anemonetheming@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=anemoneDp
-Dev: anemonetheming
-Icon: file:///Applications/Anemone.app/icon.png
-Name: Anemone
-Sponsor: thebigboss.org <http://thebigboss.org>
 
+Author: Reed Weichler <rweichler+cydia@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: Cylinder
 Package: com.r333d.cylinder
+Section: Tweaks
+Depends: firmware (>= 3.0), mobilesubstrate (>= 0.9.5000), preferenceloader
 Version: 1.1
 Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
+Description: Make your icons dance
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cylinderDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cylinderDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+dev: rweichler
 Installed-Size: 1419
-Depends: firmware (>= 3.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Icon: file:///Library/PreferenceBundles/CylinderSettings.bundle/Icon@2x.png
 Filename: ./debs/com.r333d.cylinder_1.1.deb
 Size: 300358
 MD5sum: c24e9c9b3f4096a8b93080207fac5580
 SHA1: dd35f74c38b9ac3652a134136e4ffcb15db67329
 SHA256: 5ddac771540c6f8f8e1ada87fa0deae2f85e1aac2536d125aaa0787667528cd4
-Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cylinderDp
-Description: Make your icons dance
-Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
-Author: Reed Weichler <rweichler+cydia@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cylinderDp
-Dev: rweichler
-Icon: file:///Library/PreferenceBundles/CylinderSettings.bundle/Icon@2x.png
-Name: Cylinder
-Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.saurik.afc2d
-Version: 1.2
-Architecture: iphoneos-arm
+Priority: optional
+Section: System
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1.2
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: firmware (<< 8.0) | mobilesubstrate
 Conflicts: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
 Replaces: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
 Provides: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Description: allow full file-system access over USB
+Name: Apple File Conduit "2"
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/com.saurik.afc2d/
+Tag: purpose::daemon, role::enduser
 Filename: ./debs/com.saurik.afc2d_1.2_iphoneos-arm.deb
 Size: 18114
 MD5sum: 34291f44d22cfbbf3eb4bad0ade3b89c
 SHA1: bddaf385263b9aad2b032b2116179f83afd077cc
 SHA256: 287ac4ce1a6e4095e824fd90f71fed301ff7d9508f1cd2d87a7354053e347a3c
-Section: System
-Priority: optional
-Description: allow full file-system access over USB
-Tag: purpose::daemon, role::enduser
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/com.saurik.afc2d/
-Name: Apple File Conduit "2"
 
 Package: com.spark.snowboard
-Version: 1.4.2~Beta4
-Architecture: iphoneos-arm
-Maintainer: Spark
-Installed-Size: 4884
+Name: SnowBoard
 Depends: mobilesubstrate, preferenceloader
-Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
-Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Architecture: iphoneos-arm
+Description: Snowboard theming engine
 Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Maintainer: Spark
+Author: Spark & Dennis D. Bednarz
+Section: Tweaks
+Version: 1.4.2~Beta4
+Installed-Size: 4884
 Filename: ./debs/com.spark.snowboard_1.4.2_Beta4.deb
 Size: 1544346
 MD5sum: 0ccc95da2f2e0accbbad83e80d67a9fd
 SHA1: 2c098229be61c82c02bba61dcec46f70b941635b
 SHA256: 3503067822d9c332d2ca77d3d769eabf0da492937c47cabfe3d8964bce083916
-Section: Tweaks
-Description: Snowboard theming engine
-Author: Spark & Dennis D. Bednarz
-Name: SnowBoard
 
+Name: Filza File Manager
 Package: com.tigisoftware.filza
-Version: 4.0.1-3
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 31815
+Priority: optional
 Depends: firmware (>= 7.0), zip, unzip, gzip, unrar, p7zip
 Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza39
+Version: 4.0.1-3
+Architecture: iphoneos-arm
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=filzafilemanagerDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=filzafilemanagerDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: TIGI Software <satashi2009@gmail.com>
+Section: Utilities
+Tag: purpose::uikit
+Installed-Size: 31815
+dev: satashi2009
+Icon: file:///Applications/Filza.app/AppIcon57x57.png
+
 Filename: ./debs/com.tigisoftware.filza_4.0.1-3_iphoneos-arm_Patch_by_FajeSu.deb
 Size: 16103222
 MD5sum: 0e70e79a8fc5c1663bbe600e56a78698
 SHA1: a091f6679d5d3ef72030a2b24a528f8d778b7d85
 SHA256: 86fc8e53854e4520492823c06d9c787b291606669957862d2b16f852fa8f65fd
-Section: Utilities
-Priority: optional
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=filzafilemanagerDp
-Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
-Tag: purpose::uikit
-Author: TIGI Software <satashi2009@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=filzafilemanagerDp
-Dev: satashi2009
-Icon: file:///Applications/Filza.app/AppIcon57x57.png
-Name: Filza File Manager
-Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: org.thebigboss.eclipse4
-Version: 4.1.3-1
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 1515
 Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, org.thebigboss.libcolorpicker
 Conflicts: org.thebigboss.eclipse, org.thebigboss.eclipse2, org.thebigboss.eclipse3
+Name: Eclipse 4 (iOS 10)
+Version: 4.1.3-1
+Architecture: iphoneos-arm
+Description: System-wide Night Mode and more for iOS 10.
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=eclipse4Dp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=eclipse4Dp
+Installed-Size: 1515
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Guillermo Moran (@fr0st) <willie_m5296@hotmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Section: Tweaks
+dev: gmoran
+Tag: purpose::extension, compatible::ios10
+Icon: file:///Library/PreferenceBundles/Eclipse_Settings.bundle/eclipse@2x.png
 Filename: ./debs/org.thebigboss.eclipse4_4.1.3-1.deb
 Size: 810032
 MD5sum: 51757b3278cf986060dd8ceb973279b6
 SHA1: 7743cc45b089bf895808904d67e05108216b2905
 SHA256: 1df970bb2ca9bf34ed248a1bad1e50f95e9ca23edda0d516f67b1ab6bb6fbb8e
-Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=eclipse4Dp
-Description: System-wide Night Mode and more for iOS 10.
-Tag: purpose::extension, compatible::ios10
-Author: Guillermo Moran (@fr0st) <willie_m5296@hotmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=eclipse4Dp
-Dev: gmoran
-Icon: file:///Library/PreferenceBundles/Eclipse_Settings.bundle/eclipse@2x.png
-Name: Eclipse 4 (iOS 10)
-Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: uk.invoxiplaygames.checkmatestore
-Version: 1.2
-Architecture: iphoneos-arm
-Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
-Installed-Size: 164
+Name: Checkmate, Store!
 Depends: mobilesubstrate, firmware (>= 2.0)
+Architecture: iphoneos-arm
+Description: Disable capability limits in the App Store.
+Depiction: http://cydia.invoxiplaygames.uk/dp/checkmatestore.php
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Section: Tweaks
+Version: 1.2
+Installed-Size: 164
 Filename: ./debs/uk.invoxiplaygames.checkmatestore_1.2.deb
 Size: 5200
 MD5sum: 5245fc6431aadd77110a226b8f0d9ee8
 SHA1: 1330e7a5c051c6dfbff558184de78accecb19032
 SHA256: 0863fee434c9a1aed89696655b4075aa3edde2b2ad3ee2a0e99a99428c17ffe3
-Section: Tweaks
-Description: Disable capability limits in the App Store.
-Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
-Depiction: http://cydia.invoxiplaygames.uk/dp/checkmatestore.php
-Name: Checkmate, Store!
 
